@@ -1,4 +1,7 @@
-import { defineConfig } from 'vite';
+// import { defineConfig } from 'vite';
+import pkg from 'vite';
+const { defineConfig } = pkg;
+
 import react from '@vitejs/plugin-react';
 import { resolve } from 'path';
 
